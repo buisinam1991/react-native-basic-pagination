@@ -45,6 +45,10 @@ const Pagination = ({
         containerStyle,
         btnStyle,
         textStyle,
+        btnFirst,
+        btnLast,
+        btnNext,
+        btnPre
       }}>
       {pagination.map((pag, index) => (
         <PaginationButton
