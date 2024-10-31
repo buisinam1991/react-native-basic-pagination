@@ -1,4 +1,4 @@
-import { StyleProp, TextStyle, ViewStyle } from 'react-native';
+import { StyleProp, TextStyle, ViewStyle, ImageView} from 'react-native';
 
 export interface PaginationProps {
   totalItems: number;
@@ -12,4 +12,8 @@ export interface PaginationProps {
   textStyle?: StyleProp<TextStyle>;
   activeBtnStyle?: StyleProp<ViewStyle>;
   activeTextStyle?: StyleProp<TextStyle>;
+  btnLast?: ImageView;
+  btnFirst?: ImageView;
+  btnPre?: ImageView;
+  btnNext?: ImageView;
 }

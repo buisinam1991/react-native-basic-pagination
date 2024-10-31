@@ -16,6 +16,10 @@ const Pagination = ({
   textStyle = {},
   activeBtnStyle = null,
   activeTextStyle = null,
+  btnFirst = null,
+  btnLast = null,
+  btnPre = null,
+  btnNext = null
 }: PaginationProps) => {
   const totalPages = useMemo(() => Math.ceil(totalItems / pageSize), [totalItems, pageSize]);
   const pagination = usePagination(
