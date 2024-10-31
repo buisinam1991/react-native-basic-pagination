@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleProp, ViewStyle, TextStyle, ImageView} from 'react-native';
+import { StyleProp, ViewStyle, TextStyle} from 'react-native';
 
 export interface PaginationSideButtonsProps {
   totalPages: number;
@@ -10,8 +10,8 @@ export interface PaginationSideButtonsProps {
   containerStyle?: StyleProp<ViewStyle>;
   textStyle?: StyleProp<TextStyle>;
   btnStyle?: StyleProp<ViewStyle>;
-  btnLast?: ImageView;
-  btnFirst?: ImageView;
-  btnPre?: ImageView;
-  btnNext?: ImageView;
+  btnLast?: React.ReactNode;
+  btnFirst?: React.ReactNode;
+  btnPre?: React.ReactNode;
+  btnNext?: React.ReactNode;
 }

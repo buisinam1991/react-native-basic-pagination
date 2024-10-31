@@ -11,4 +11,8 @@ export interface PaginationProps {
     textStyle?: StyleProp<TextStyle>;
     activeBtnStyle?: StyleProp<ViewStyle>;
     activeTextStyle?: StyleProp<TextStyle>;
+    btnLast?: React.ReactNode;
+    btnFirst?: React.ReactNode;
+    btnPre?: React.ReactNode;
+    btnNext?: React.ReactNode;
 }

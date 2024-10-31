@@ -9,4 +9,8 @@ export interface PaginationSideButtonsProps {
     containerStyle?: StyleProp<ViewStyle>;
     textStyle?: StyleProp<TextStyle>;
     btnStyle?: StyleProp<ViewStyle>;
+    btnLast?: React.ReactNode;
+    btnFirst?: React.ReactNode;
+    btnPre?: React.ReactNode;
+    btnNext?: React.ReactNode;
 }
